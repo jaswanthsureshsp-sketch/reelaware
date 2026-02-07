@@ -17,11 +17,11 @@ The app focuses on awareness rather than restriction, allowing users to understa
 
 - Subsequent alerts every +10 minutes
 
-- Single persistent notification that updates usage time (no notification spam)
+- Single persistent notification that updates usage time no notification spam.
 
 - Cognitive awareness message based on session duration
 
-- Real-time tracking status indicator:
+- Real time tracking status indicator:
 
 - ON when usage access is granted
 
@@ -53,7 +53,7 @@ The app focuses on awareness rather than restriction, allowing users to understa
 
 - Language: Java
 
-- Platform: Android (API level 26 and above)
+- Platform: Android API level 26 and above
 
 - Background Processing: WorkManager
 
@@ -62,6 +62,16 @@ The app focuses on awareness rather than restriction, allowing users to understa
 - Data Storage: SharedPreferences
 
 - UI Framework: XML Material Design principles.
+
+----
+
+## Running the App
+
+1. Clone the repository and open it in Android Studio.
+2. Build and run on an emulator or physical device.
+3. Grant Usage Access permission.
+4. Set battery usage to Unrestricted.
+5. Allow notifications when prompted.
 
 ----
 
