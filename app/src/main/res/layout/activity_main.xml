@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reels Usage Insights"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="12dp" />
+
+    <!-- Tracking status indicator -->
+    <TextView
+        android:id="@+id/tvTrackingStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tracking: --"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tracking App: Instagram"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvSessionUsage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Session usage: -- minutes"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvNextAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next alert at: -- minutes"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <!-- Last checked indicator -->
+    <TextView
+        android:id="@+id/tvLastChecked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last checked: --"
+        android:textSize="12sp"
+        android:textColor="#757575"
+        android:paddingBottom="12dp" />
+
+    <!-- Dynamic brain health warning (controlled by Java) -->
+    <TextView
+        android:id="@+id/tvBrainRot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        android:textColor="#F57C00"
+        android:gravity="center"
+        android:paddingBottom="24dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnUsageAccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grant Usage Access" />
+
+</LinearLayout>
